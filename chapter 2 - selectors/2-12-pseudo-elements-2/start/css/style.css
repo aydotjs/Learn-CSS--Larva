@@ -15,4 +15,18 @@ a {
 
 
 /* Pseudo-elements */
+.phone::after{
+	content: "\2705";
+}
+.phone::before{
+	content: url(../img//pdf.png);
+	margin: 0 8px;
+}
 
+.dload::after{
+	content: attr(href);
+	color: tomato;
+	font-size: 0.75em;
+	padding-left: 10px;
+
+}
