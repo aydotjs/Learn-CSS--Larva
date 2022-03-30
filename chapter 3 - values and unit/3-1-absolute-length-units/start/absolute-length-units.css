@@ -1,8 +1,21 @@
 /* Absolute Length Units 
 --------------------------------------------- */
 .cm{
-    width: 15cm;
+    width: 21cm
+}
+.mm{
+    width: 210mm;
+}
+.in{
+    width: 8.26in;
+}
+.pc{
+    width: 49.6pc;
+}
+.pt{
+    width: 595.27pt;
 }
 .px{
-    width: 800px;
+    width: 794px;
+    font-size: 32px;
 }

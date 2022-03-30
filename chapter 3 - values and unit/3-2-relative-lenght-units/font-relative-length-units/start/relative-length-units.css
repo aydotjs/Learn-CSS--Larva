@@ -2,10 +2,15 @@
 /* Relative Length Units 
 --------------------------------------------- */
 html{
-    font-size: 26px;
+   font-size: 0.75em;
 }
+.box{
+    width: 30em;
+    font-size: 2em;
+}
+
 p{
-    font-size: 3ex;
+font-size: 2rem;
 }
 
 
