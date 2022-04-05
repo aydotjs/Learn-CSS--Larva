@@ -6,4 +6,10 @@ body {
 
 /* Text Styles
 --------------------------------------------- */
+p{
+	line-height: 1.2;
+	text-indent: 1.5em;
+	white-space: pre-wrap;
+	text-align: left;
+}
 

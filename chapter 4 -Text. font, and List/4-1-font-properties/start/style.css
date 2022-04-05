@@ -5,4 +5,11 @@ body {
 	
 /* Font Styles
 --------------------------------------------- */
-
+h1{
+	font-family: sans-serif;
+	
+}
+p{
+	font:bold 75% sans-serif ;
+	
+}

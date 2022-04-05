@@ -17,8 +17,9 @@ p {
 
 
 h1 {
-	color: #2d2d2d;
+	color: #FFF;
 	font-size: 3.1em;
+	text-shadow: 5px 10px 5px #000 ;
 }	
 
 
@@ -26,9 +27,9 @@ h1 {
 	white-space: nowrap;
 }
 
-.word-wrap {
+/* .word-wrap {
 
-}
+} */
 
 
 

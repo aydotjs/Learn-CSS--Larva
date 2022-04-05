@@ -12,4 +12,16 @@ p {
 
 /* Box Styles
 --------------------------------------------- */
+.box{
+	background-color:#fff;
+	padding: 5px 10px 20px;
+	/* Border styles */
+	 border: 2px solid teal;
+	width: 50%;
+    /* border: 10px solid #2abf */
+    margin: -35px auto 0;
+}
 
+.margin-edge{
+	border: 3px dashed red;
+}
