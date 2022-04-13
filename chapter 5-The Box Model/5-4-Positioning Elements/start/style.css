@@ -9,42 +9,50 @@ body {
 .wrapper {
 	box-sizing: border-box;
 	margin: 0 auto;
-	padding: 25px;
+	/* padding: 25px; */
 	width: 80%;
 	background: #FFF;
-	position: relative;
 	height: 500px;
+	position: absolute;
 }
 
 .top {
 	background: #FF6347;
 	position: relative;
-	top:100px ;
-	left: 40px;
-	z-index: 40;
 }
-
 .middle {
 	background: #87CEEB;
 	position: absolute;
-	top: 250px;
-	left: 40px;
-	z-index: 30;
+	bottom: 0;
+	right: 0;
+}
+.middle p{
+	position: absolute;
+	top: 60%;
+
+	
+	z-index: 1000;
+}
+.middle::after{
+	content: "";
+	width: 50px;
+	height: 50px;
+	background-color: #000;
+	position: absolute;
+	bottom: 0;
+	left: 0;
 }
 
 .bottom {
 	background: #20B2AA;
-	position: absolute;
-	left: 40px;
-	bottom: 0;
-	z-index: 10;
+	
 }
 
 .wrapper div {
 	width: 150px;
 	height: 150px;
 	text-align: center;	
-	line-height: 150px;
+	/* line-height: 150px; */
 	text-shadow: 0 1px 1px rgba(0, 0, 0, .5);
 	box-sizing: border-box;
 
